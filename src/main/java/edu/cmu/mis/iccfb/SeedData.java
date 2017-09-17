@@ -43,6 +43,14 @@ public class SeedData {
                 "https://en.wikiquote.org/wiki/Douglas_Adams", 
                 a1);
         
+        Quote q1a = new Quote(
+                " I may not have gone where I intended to go, but I think I have ended up where I needed to be.",
+                "https://en.wikiquote.org/wiki/Douglas_Adams", 
+                a1);
+        
+        
+       
+        
         Quote q2 = new Quote(
                 "As rain breaks through an ill-thatched house, passion will break through an unreflecting mind.", 
                 "https://en.wikiquote.org/wiki/Gautama_Buddha", 
@@ -54,6 +62,7 @@ public class SeedData {
                 a3);
         
         quoteService.save(q1);
+        quoteService.save(q1a);
         quoteService.save(q2);
         quoteService.save(q3);
         
